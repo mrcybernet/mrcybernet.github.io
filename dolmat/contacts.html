@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>DOLMAT - Landing</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="imagetoolbar" content="no" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="stylesheet" href="assets/main.css" type="text/css" />
+		<link rel="shortcut icon" href="images/favicon.ico" />
+	    <script type='text/javascript'>
+	  		var now = new Date();
+			var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+			var dob = new Date(2004, 4, 12);
+			var dobnow = new Date(today.getFullYear(), dob.getMonth(), dob.getDate());
+			var age;
+			age = today.getFullYear() - dob.getFullYear();
+	    </script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="land-content">
+				<div class="landing__return-btn">
+					<a href="index.html" class="rbtn">< | На главную</a>
+					<a href="visit_page.html" class="rbtn">Обо мне</a>
+					<a href="hobbies.html" class="rbtn">Увлечения</a>
+				</div>
+				<div class="feedback-container">
+					<p class="display__select-text">Хотите связаться со мной?</p>
+
+					<form method="post" enctype="multipart/form-data">
+						<input placeholder="Имя" type="text" name="user_name" id="user_name" class="form__input" /><br />
+
+						<input placeholder="E-Mail" type="email" name="user_mail" id="user_mail" class="form__input" /><br />
+
+						<textarea placeholder="Сообщение" class="form__textarea" name="user_message" id="user_message"></textarea><br />
+
+						<button class="form__submit">Отправить</button>
+					</form>
+
+					<p class="display__select-text">Мои контакты:</p>
+
+					<nav class="contacts-nav">
+
+						<a class="c-nav-item" target="_blank" href="https://vk.com/quw3ry"><img src="images/vk.svg" class="contacts__link" /></a>
+						<a class="c-nav-item" target="_blank" href="https://t.me/salawatts"><img src="images/tg.svg" class="contacts__link" /></a>
+						<a class="c-nav-item" target="_blank" href="https://instagram.com/quw3ry"><img src="images/ig.svg" class="contacts__link" /></a>
+					</nav>
+				</div>
+			</div>
+			<div class="footer">
+				<p style="text-align:center;" class="display__select-text-small">Developed by Dolmat</p>
+			</div>
+		</div>
+	</body>
+</html>

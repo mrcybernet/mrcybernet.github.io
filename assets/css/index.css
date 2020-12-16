@@ -1,0 +1,56 @@
+@font-face {
+    font-family:'RobotoSlab';
+    src:url('/assets/fonts/RobotoSlab-Regular.ttf');
+}
+
+@font-face {
+    font-family:'PTSans';
+    src:url('/assets/fonts/ptsans.ttf');
+}
+
+* {
+    outline:none;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+.container {
+    max-width:300px;
+    margin:10% auto;
+}
+
+.logotype {
+    text-align:center;
+    margin:2em;
+}
+
+.logotype-link {
+    font-family:'RobotoSlab';
+    color:#404040;
+    font-size:2em;
+    text-decoration:none;
+}
+
+.nav-body {
+    display:flex;
+    flex-direction:column;
+}
+
+.nav-item-link {
+    padding:1em;
+    border-radius:5em;
+    color:white;
+    background:#404040;
+    text-decoration:none;
+    font-family:'PTSans';
+    margin:0.5em 0;
+    transition:0.3s;
+}
+
+.nav-item-link:hover {
+    background:gold;
+    color:#404040;
+}
