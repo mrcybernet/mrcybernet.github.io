@@ -53,4 +53,5 @@ html, body {
 
 .nav-item-link:hover {
     background:gold;
+    color:#333333;
 }
