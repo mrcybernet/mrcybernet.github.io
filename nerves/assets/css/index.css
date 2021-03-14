@@ -1,0 +1,74 @@
+@font-face {
+	font-family:'Montserrat';
+	src:url('fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family:'RobotoSlab';
+	src:url('fonts/RobotoSlab-Regular.ttf');
+}
+
+* {
+	outline:none;
+	font-family:'Montserrat';
+	color:white;
+}
+
+html, body {
+	margin:0;
+	padding:0;
+	background:#333333;
+}
+
+.header {
+	background:#404040;
+	color:white;
+	font-family:'Montserrat';
+	text-align:center;
+	padding:1em;
+}
+
+a {
+	color:white;
+}
+
+.header-link {
+	text-decoration:none;
+}
+
+.nav-button {
+	font-family:'Montserrat';
+	text-decoration:none;
+	font-size:0.9em;
+	padding:0.65em;
+	border:2px solid white;
+	max-width:200px;
+	margin:0.4em;
+	transition:0.3s;
+}
+
+.nav-button:hover {
+	background:white;
+	color:#333333;
+}
+
+.theory-content, .practice-content {
+	color:white;
+	padding:2em;
+	display:flex;
+	flex-direction:column;
+}
+
+.info-content {
+	padding:3em;
+	max-width:500px;
+	font-family:'RobotoSlab';
+}
+
+.frame {
+	width:99%;
+	position:absolute;
+	top:4em;
+	height:100%;
+	border:none;
+}
