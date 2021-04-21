@@ -1,4 +1,4 @@
-@font-face{font-family:'os';src:url('/assets/opensans.ttf');}
+@font-face{font-family:'os';src:url('/assets/fonts/ptsans.ttf');}
 *{font-family:'os';outline:none;}
 html,body{margin:0;padding:0;overflow-x:hidden;}
 .header{background:#404040;width:100%;}
