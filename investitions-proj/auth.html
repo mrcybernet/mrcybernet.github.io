@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Авторизация | DOLMA.COM</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="assets/index.css" type="text/css">
+        <link rel="shortcut icon" href="assets/media/favicon.png">
+        <script type="text/javascript" src="assets/js/mobile-menu.js"></script>
+    </head>
+    <body>
+        <div id="mobile-menu-container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="hideMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="mobmenu-content">
+                <a href="index.html" class="mobmenu-link">Главная</a>
+                <a href="tariffs.html" class="mobmenu-link">Тарифы вкладов</a>
+                <a href="cabinet.html" class="mobmenu-link">Личный кабинет</a>
+                <a href="auth.html" class="mobmenu-link">Авторизация</a>
+                <a href="contacts.html" class="mobmenu-link">Контакты</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="showMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="auth-container">
+                    <div class="login-container">
+                        <form method="post" enctype="multipart/form-data" class="auth-form">
+                            <h3>Вход в аккаунт</h3>
+                            <hr><br>
+                            <label for="login-mail">Ваш логин:</label>
+
+                            <input type="email" class="form-input" id="login-mail" name="email" placeholder="email@example.com" required>
+
+                            <label for="login-pass">Введите пароль:</label>
+
+                            <input type="password" class="form-input" id="login-pass" name="password" required>
+
+                            <button class="form-submit">ВОЙТИ</button>
+                        </form>
+                    </div>
+
+                    <div class="signin-container">
+                        <form method="post" enctype="multipart/form-data" class="auth-form">
+                            <h3>Регистрация</h3>
+                            <hr><br>
+                            <label for="signin-name">Ваше имя:</label>
+
+                            <input type="text" class="form-input" id="signin-name" name="name" placeholder="Иванов Иван" required>
+
+                            <label for="signin-mail">Ваш E-mail:</label>
+
+                            <input type="email" class="form-input" id="signin-mail" name="email" placeholder="email@example.com" required>
+
+                            <label for="signin-pass">Придумайте пароль:</label>
+
+                            <input type="password" class="form-input" id="signin-pass" name="password" required>
+
+                            <label for="signin-pass-rp">Повторите пароль:</label>
+
+                            <input type="password" class="form-input" id="signin-pass-rp" name="password-repeat" required>
+
+                            <button class="form-submit">ВОЙТИ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-copyright-container">
+                    Разработано в <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> Владиславом Долматом, 0k9391.
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

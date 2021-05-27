@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Тарифы вкладов | DOLMA.COM</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="assets/index.css" type="text/css">
+        <link rel="shortcut icon" href="assets/media/favicon.png">
+        <script type="text/javascript" src="assets/js/mobile-menu.js"></script>
+        <script type="text/javascript">
+            function startTariffTempo1() {
+                sel1 = document.getElementById('start-tariff-tempo-rg1').value;
+                echo1 = document.getElementById('start-tariff-tempo1');
+                echo1.innerHTML = sel1;
+            }
+            function startTariffTempo2() {
+                sel1 = document.getElementById('start-tariff-tempo-rg2').value;
+                echo1 = document.getElementById('start-tariff-tempo2');
+                echo1.innerHTML = sel1;
+            }
+            function startTariffTempo3() {
+                sel1 = document.getElementById('start-tariff-tempo-rg3').value;
+                echo1 = document.getElementById('start-tariff-tempo3');
+                echo1.innerHTML = sel1;
+            }
+            function startTariffTempo4() {
+                sel1 = document.getElementById('start-tariff-tempo-rg4').value;
+                echo1 = document.getElementById('start-tariff-tempo4');
+                echo1.innerHTML = sel1;
+            }
+            function startTariffTempo5() {
+                sel1 = document.getElementById('start-tariff-tempo-rg5').value;
+                echo1 = document.getElementById('start-tariff-tempo5');
+                echo1.innerHTML = sel1;
+            }
+            function tariffDepCustom() {
+                sel1 = document.getElementById('tariff-dep-custom').value;
+                echo1 = document.getElementById('tariff-dep-custom-show');
+                echo1.innerHTML = sel1;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="mobile-menu-container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="hideMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="mobmenu-content">
+                <a href="index.html" class="mobmenu-link">Главная</a>
+                <a href="tariffs.html" class="mobmenu-link">Тарифы вкладов</a>
+                <a href="cabinet.html" class="mobmenu-link">Личный кабинет</a>
+                <a href="auth.html" class="mobmenu-link">Авторизация</a>
+                <a href="contacts.html" class="mobmenu-link">Контакты</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="showMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="tariffs-container">
+                    <h1 class="tc-title">Тарифы</h1>
+
+                    <div class="tariffs-ul-container">
+                        <ul class="tuc-list">
+                            <li class="tucl-item">
+                                <div class="rucli-header">
+                                    Начальный
+                                </div>
+
+                                <div class="rucli-content">
+                                    <div class="rucli-deposit">
+                                        <span class="rucli-dep-title">
+                                            ДЕПОЗИТ:
+                                        </span>
+
+                                        <span class="rucli-dep-val">
+                                            $100
+                                        </span>
+                                    </div>
+
+                                    <div class="rucli-tempo">
+                                        <span class="rucli-temp-show">
+                                            СРОК:
+                                        </span>
+
+                                        <span class="rucli-temp-val">
+                                            <span class="rucli-temp-value" id="start-tariff-tempo1">7</span> ДНЕЙ
+                                        </span>
+                                        <input type="range" oninput="startTariffTempo1();" id="start-tariff-tempo-rg1" class="tariffs-range" min="7" max="14" step="1" value="7">
+                                    </div>
+                                </div>
+
+                                <button class="rucli-btn rucli-btn-mmarg">ПРИОБРЕСТИ</button>
+                            </li>
+
+                            <li class="tucl-item">
+                                <div class="rucli-header">
+                                    Стандарт
+                                </div>
+
+                                <div class="rucli-content">
+                                    <div class="rucli-deposit">
+                                        <span class="rucli-dep-title">
+                                            ДЕПОЗИТ:
+                                        </span>
+
+                                        <span class="rucli-dep-val">
+                                            $250
+                                        </span>
+                                    </div>
+
+                                    <div class="rucli-tempo">
+                                        <span class="rucli-temp-show">
+                                            СРОК:
+                                        </span>
+
+                                        <span class="rucli-temp-val">
+                                            <span class="rucli-temp-value" id="start-tariff-tempo2">7</span> ДНЕЙ
+                                        </span>
+                                        <input type="range" oninput="startTariffTempo2();" id="start-tariff-tempo-rg2" class="tariffs-range" min="7" max="30" step="1" value="7">
+                                    </div>
+                                </div>
+
+                                <button class="rucli-btn rucli-btn-mmarg">ПРИОБРЕСТИ</button>
+                            </li>
+
+                            <li class="tucl-item">
+                                <div class="rucli-header">
+                                    Для опытных
+                                </div>
+
+                                <div class="rucli-content">
+                                    <div class="rucli-deposit">
+                                        <span class="rucli-dep-title">
+                                            ДЕПОЗИТ:
+                                        </span>
+
+                                        <span class="rucli-dep-val">
+                                            $500
+                                        </span>
+                                    </div>
+
+                                    <div class="rucli-tempo">
+                                        <span class="rucli-temp-show">
+                                            СРОК:
+                                        </span>
+
+                                        <span class="rucli-temp-val">
+                                            <span class="rucli-temp-value" id="start-tariff-tempo3">7</span> ДНЕЙ
+                                        </span>
+                                        <input type="range" oninput="startTariffTempo3();" id="start-tariff-tempo-rg3" class="tariffs-range" min="7" max="180" step="1" value="7">
+                                    </div>
+                                </div>
+
+                                <button class="rucli-btn rucli-btn-mmarg">ПРИОБРЕСТИ</button>
+                            </li>
+
+                            <li class="tucl-item">
+                                <div class="rucli-header">
+                                    Профи
+                                </div>
+
+                                <div class="rucli-content">
+                                    <div class="rucli-deposit">
+                                        <span class="rucli-dep-title">
+                                            ДЕПОЗИТ:
+                                        </span>
+
+                                        <span class="rucli-dep-val">
+                                            $1500
+                                        </span>
+                                    </div>
+
+                                    <div class="rucli-tempo">
+                                        <span class="rucli-temp-show">
+                                            СРОК:
+                                        </span>
+
+                                        <span class="rucli-temp-val">
+                                            <span class="rucli-temp-value" id="start-tariff-tempo4">7</span> ДНЕЙ
+                                        </span>
+                                        <input type="range" oninput="startTariffTempo4();" id="start-tariff-tempo-rg4" class="tariffs-range" min="7" max="365" step="1" value="7">
+                                    </div>
+                                </div>
+
+                                <button class="rucli-btn rucli-btn-mmarg">ПРИОБРЕСТИ</button>
+                            </li>
+
+                            <li class="tucl-item">
+                                <div class="rucli-header">
+                                    Кастом
+                                </div>
+
+                                <div class="rucli-content">
+                                    <div class="rucli-deposit">
+                                        <span class="rucli-dep-title">
+                                            ДЕПОЗИТ:
+                                        </span>
+
+                                        <span class="rucli-dep-val">
+                                            $<span id="tariff-dep-custom-show">100</span>
+                                        </span>
+
+                                        <input type="range" oninput="tariffDepCustom();" id="tariff-dep-custom" class="tariffs-range" min="50" max="5000" step="50" value="7">
+                                    </div>
+
+                                    <div class="rucli-tempo">
+                                        <span class="rucli-temp-show">
+                                            СРОК:
+                                        </span>
+
+                                        <span class="rucli-temp-val">
+                                            <span class="rucli-temp-value" id="start-tariff-tempo5">7</span> ДНЕЙ
+                                        </span>
+                                        <input type="range" oninput="startTariffTempo5();" id="start-tariff-tempo-rg5" class="tariffs-range" min="7" max="365" step="1" value="7">
+                                    </div>
+                                </div>
+                                <button class="rucli-btn">ПРИОБРЕСТИ</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-copyright-container">
+                    Разработано в <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> Владиславом Долматом, 0k9391.
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
