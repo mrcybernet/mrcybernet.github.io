@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('/assets/fonts/montserrat.ttf');
+    src: url('fonts/montserrat.ttf');
 }
 
 @font-face {
     font-family: 'OS Bold';
-    src: url('/assets/fonts/os bold.ttf');
+    src: url('fonts/os bold.ttf');
 }
 
 @font-face {
     font-family: 'OS EBold';
-    src: url('/assets/fonts/os ebold.ttf');
+    src: url('fonts/os ebold.ttf');
 }
 
 @font-face {
     font-family: 'OS Light';
-    src: url('/assets/fonts/os light.ttf');
+    src: url('fonts/os light.ttf');
 }
 
 @font-face {
     font-family: 'OS';
-    src: url('/assets/fonts/os reg.ttf');
+    src: url('fonts/os reg.ttf');
 }
 
 @font-face {
     font-family: 'PTSans';
-    src: url('/assets/fonts/ptsans.ttf');
+    src: url('fonts/ptsans.ttf');
 }
 
 * {
@@ -38,7 +38,7 @@ html, body {
 }
 
 body {
-    background:url('/assets/media/bg2.jpg') fixed;
+    background:url('media/bg2.jpg') fixed;
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -80,7 +80,7 @@ header, footer {
 }
 
 .header-logotype {
-    background:url('/assets/media/qmeet-icon.png');
+    background:url('media/qmeet-icon.png');
     width:50px;
     height:50px;
     background-size:cover;
@@ -285,7 +285,7 @@ header, footer {
 }
 
 .ddi-icon {
-    background:url('/assets/media/qmeet-icon.png');
+    background:url('media/qmeet-icon.png');
     background-size:cover;
     background-repeat: no-repeat;
     width:40px;
@@ -293,7 +293,7 @@ header, footer {
 }
 
 .adi-icon {
-    background:url('/assets/media/android.png');
+    background:url('media/android.png');
     background-size:cover;
     background-repeat: no-repeat;
     width:40px;
@@ -301,7 +301,7 @@ header, footer {
 }
 
 .idi-icon {
-    background:url('/assets/media/apple.png');
+    background:url('media/apple.png');
     background-size:cover;
     background-repeat: no-repeat;
     width:40px;
