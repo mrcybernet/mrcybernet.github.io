@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Контакты | DOLMA.COM</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="assets/index.css" type="text/css">
+        <link rel="shortcut icon" href="assets/media/favicon.png">
+        <script type="text/javascript" src="assets/js/mobile-menu.js"></script>
+    </head>
+    <body>
+        <div id="mobile-menu-container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="hideMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="mobmenu-content">
+                <a href="start.html" class="mobmenu-link">Главная</a>
+                <a href="tariffs.html" class="mobmenu-link">Тарифы вкладов</a>
+                <a href="cabinet.html" class="mobmenu-link">Личный кабинет</a>
+                <a href="auth.html" class="mobmenu-link">Авторизация</a>
+                <a href="contacts.html" class="mobmenu-link">Контакты</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="showMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="contacts-container">
+                    <div class="cc-links">
+                        <a href="mailto:stqurt@gmail.com" class="cc-link-inline">
+                            <div class="cc-linki-icon cc-linki-icon-mail"></div>
+
+                            <div class="cc-linki-text">
+                                stqurt@gmail.com
+                            </div>
+                        </a>
+
+                        <a href="https://vk.com/stqurt" target="_blank" class="cc-link-inline">
+                            <div class="cc-linki-icon cc-linki-icon-vk"></div>
+
+                            <div class="cc-linki-text">
+                                Страница ВКонтакте
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com/stqurt/" target="_blank" class="cc-link-inline">
+                            <div class="cc-linki-icon cc-linki-icon-instagram"></div>
+
+                            <div class="cc-linki-text">
+                                Страница Instagram
+                            </div>
+                        </a>
+
+                        <a href="https://t.me/stqurt" target="_blank" class="cc-link-inline">
+                            <div class="cc-linki-icon cc-linki-icon-telegram"></div>
+
+                            <div class="cc-linki-text">
+                                Профиль Telegram
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cc-feedback">
+                        <form class="ccf-form" method="post" enctype="multipart/form-data">
+                            <label for="form-name">Ваше имя:</label>
+
+                            <input type="text" id="form-name" class="form-input" name="name" placeholder="Например, Иван" required>
+
+                            <label for="form-mail">Ваш E-mail для связи:</label>
+
+                            <input type="email" id="form-mail" class="form-input" name="email" placeholder="email@example.com" required>
+
+                            <label for="form-message">Ваше сообщение:</label>
+
+                            <textarea id="form-message" name="message" class="form-textarea" placeholder="Напишите что-нибудь..." required></textarea>
+
+                            <button class="form-submit-golden">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-copyright-container">
+                    Разработано в <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> Владиславом Долматом, 0k9391.
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

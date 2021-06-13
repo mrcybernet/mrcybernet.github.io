@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Личный кабинет | DOLMA.COM</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="imagetoolbar" content="no">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="assets/index.css" type="text/css">
+        <link rel="shortcut icon" href="assets/media/favicon.png">
+        <script type="text/javascript" src="assets/js/mobile-menu.js"></script>
+    </head>
+    <body>
+        <div id="mobile-menu-container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="hideMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="mobmenu-content">
+                <a href="start.html" class="mobmenu-link">Главная</a>
+                <a href="tariffs.html" class="mobmenu-link">Тарифы вкладов</a>
+                <a href="cabinet.html" class="mobmenu-link">Личный кабинет</a>
+                <a href="auth.html" class="mobmenu-link">Авторизация</a>
+                <a href="contacts.html" class="mobmenu-link">Контакты</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <header>
+                <div class="logotype-container"></div>
+
+                <div onclick="showMMenu();" class="menu-navbar-container">
+                    <div class="mnc-line mnc-line1"></div>
+                    <div class="mnc-line mnc-line2"></div>
+                    <div class="mnc-line mnc-line3"></div>
+                </div>
+            </header>
+
+            <div class="content">
+                <div class="cabinet-container">
+                    <div class="cabcon-article">
+                        <div id="cabcon-main-sett">
+                            <table cellpadding="10" cellspacing="0" bordercolor="rebeccapurple" border="1" class="cabcon-balance-table">
+                                <tr>
+                                    <th>Свободный баланс</th><th>Общий баланс</th>
+                                </tr>
+
+                                <tr>
+                                    <td>$1000</td><td>$2944</td>
+                                </tr>
+                            </table>
+
+                            <br><br>
+
+                            <p class="cabcon-info"><b>Ваш E-mail:</b> <u>stqurt@gmail.com</u></p>
+                            <p class="cabcon-info"><b>Дата регистрации:</b> <u>21 декабря 2020</u></p>
+                        </div>
+
+                        <div id="cabcon-pass-recovery">
+                            <form class="pass-rc-form" method="post" enctype="multipart/form-data">
+                                <h3>Смена пароля</h3>
+                                <label for="cab-oldpass">Старый пароль:</label>
+
+                                <input type="password" class="form-input" id="cab-oldpass" name="password-old" required>
+
+                                <label for="cab-newpass">Новый пароль:</label>
+
+                                <input type="password" class="form-input" id="cab-newpass" name="password-new" required>
+
+                                <label for="cab-newpass-rp">Повтор пароля:</label>
+
+                                <input type="password" class="form-input" id="cab-newpass-rp" name="password-new" required>
+
+                                <button class="form-submit-golden">ВОЙТИ</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-copyright-container">
+                    Разработано в <script type="text/javascript">var mdate = new Date(); document.write(mdate.getFullYear());</script> Владиславом Долматом, 0k9391.
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
