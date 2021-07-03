@@ -1,0 +1,173 @@
+* {
+    outline:none;
+}
+
+html, body {
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+    background:#cacaca;
+}
+
+.container {
+}
+
+.header-left-navbar {
+    display:flex;
+    flex-direction:row;
+    font-family:'Palatino Linotype';
+    padding:0.6em 3em;
+    border:3px solid #454545;
+    width:650px;
+}
+
+.hlnb-link {
+    color:#333;
+    font-size:1.1em;
+    text-decoration:none;
+    transition:0.2s;
+    border-bottom:2px solid transparent;
+    margin:0 auto;
+}
+
+.hlnb-link:hover {
+    border-color:#333;
+}
+
+.header-left, header {
+    display:flex;
+}
+
+.header-left {
+    margin:2.5em 0;
+}
+
+.header-left-locate {
+    line-height:47px;
+    font-family:'Palatino Linotype';
+    font-size:1.2em;
+    margin-left:1.5em;
+}
+
+.header-right {
+    margin-left:auto;
+}
+
+.header-right-logo {
+    width:300px;
+    height:auto;
+}
+
+header {
+    width:1350px;
+    margin:50px auto;
+}
+
+footer {
+    background:#222;
+    padding:4em 0;
+    border-top:0.7em solid goldenrod;
+}
+
+.footer-cut {
+    width:1350px;
+    margin:0 auto;
+}
+
+.footer-right-logo {
+    width:300px;
+    height:auto;
+}
+
+.footer-right {
+    margin-left:auto;
+}
+
+.footer-head {
+    display:flex;
+}
+
+.footer-left {
+    font-family:'Palatino Linotype';
+    color:white;
+    font-size:3.5em;
+    letter-spacing:5px;
+    line-height:110px;
+}
+
+.footer-copyright {
+    text-align:center;
+    display:flex;
+    width:500px;
+    margin:2em auto;
+}
+
+.fc-design-by, .fc-dev-by {
+    color:#555;
+    font-family:'Verdana';
+    font-size:0.85em;
+    padding:0.4em 1em;
+    border:2px solid #555;
+    margin:0 auto;
+}
+
+.footer-content {
+    display:flex;
+}
+
+.fcont-item {
+    font-family:'Arial';
+    letter-spacing:1px;
+    color:white;
+    margin:0.4em;
+    text-decoration:none;
+}
+
+.fcont-item:hover {
+    color:gainsboro;
+}
+
+.fcont-col:first-child {
+    margin-left:0;
+}
+
+.fcont-col {
+    margin:4em auto;
+    text-align:left;
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-uparrow {
+    width:100px;
+    height:100px;
+    margin:20vh auto;
+    text-align:center;
+}
+
+.content-downarrow {
+    width:100px;
+    height:100px;
+    margin:10vh auto;
+}
+
+#intro {
+    width:1350px;
+    margin:0 auto;
+    border-bottom:3px solid goldenrod;
+}
+
+.intro-inline {
+    display:flex;
+}
+
+.intro-right {
+    font-family:'Calibri';
+    font-size:3em;
+    font-weight:lighter;
+    padding:20% 0 30% 1.5em;
+}
+
+.content-downarrow-container {
+    text-align:center;
+}
